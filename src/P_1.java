@@ -64,14 +64,26 @@ public class P_1 {
             for (int j = 0; j <bokpB; j++) {
 
                 if ((i == 0) || (i == bokpA - 1)) {
-                    System.out.println('*');
+                    System.out.print('*');
                 }
-                else if ((j == 0) || (j == bokpB -1 )) {
-                    System.out.println('*');
-                }
-                else System.out.println(' ');
+                else if ((j == 0) || (j == bokpB -1 )) System.out.println('*');
+                else System.out.print(' ');
             }
             System.out.println();
+        }
+    }
+
+    public void Choinka (int wysokosc) {
+        for (int i = 0; i < wysokosc; i++) {
+            for (int j = 0; j < (wysokosc - 1); j++) {
+                if (i >= wysokosc - j) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println( );
         }
     }
 
@@ -93,7 +105,8 @@ public class P_1 {
         p_1.WygwiazdkowanieLinii(50);
         System.out.println("==================");
         p_1.WygwiazdkowanieProstokata(10, 10);
-
+        System.out.println("==================");
+        p_1.Choinka(5);
 
     }
 }

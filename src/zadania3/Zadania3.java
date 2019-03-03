@@ -3,6 +3,14 @@ package zadania3;
 import java.util.Scanner;
 
 public class Zadania3 {
+
+    public void SprawdzeniePalindromu(String wyraz, String wyraz2) {
+
+    }
+
+
+
+
     public static void main(String[] args) {
         Scanner wejscie = new Scanner(System.in);
         String wyraz = wejscie.nextLine();
@@ -26,8 +34,20 @@ public class Zadania3 {
         System.out.println("Małe = " + counter_lower);
         System.out.println("Cyfry = " + counter_digits);
         System.out.println("Spacje = " + counter_space);
-
         System.out.println("Znak specjalny = " + special);
+
+        String wyraz2 =  wyraz.replace(" ","");
+        String odwrocony2 = odwracanie.replace(" ", "");
+        System.out.println(wyraz2);
+        System.out.println(odwrocony2);
+        boolean test = false;
+
+        if (wyraz2.equalsIgnoreCase(odwrocony2)) {
+            System.out.println("Wyrażenie jest palindromem");
+        }
+        else System.out.println("Wyrażenie nie jest palindromem");
+
+
     }
 
 

@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94e99dba-8d88-4092-9b02-4f386a6c6698" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zadanie2/AbstractMuzyk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zadanie2/Muzyk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zadanie2/Orkiestra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zadanie2/Pianista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zadanie2/PianistaImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zadanie2/Skrzypek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zadanie2/SkrzypekImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zadanie2/TrebaczImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zadanie2/Trębacz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zadania3/Zadania3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,115 +15,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/zadanie2/Orkiestra.java">
+        <entry file="file://$PROJECT_DIR$/src/zadania3/Zadania3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zadanie2/Muzyk.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zadanie2/TrebaczImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#101#102#0" expanded="true" />
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zadanie2/Skrzypek.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zadanie2/SkrzypekImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-              <folding>
-                <element signature="e#108#109#0" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zadanie2/PianistaImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-              <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zadanie2/Pianista.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zadanie2/Trębacz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zadanie2/AbstractMuzyk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1231">
+              <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -159,11 +54,12 @@
         <option value="$PROJECT_DIR$/src/zadanie2/Skrzypek.java" />
         <option value="$PROJECT_DIR$/src/zadanie2/TrębaczImpl.java" />
         <option value="$PROJECT_DIR$/src/zadanie2/SkrzypekImpl.java" />
-        <option value="$PROJECT_DIR$/src/zadanie2/PianistaImpl.java" />
         <option value="$PROJECT_DIR$/src/zadanie2/TrebaczImpl.java" />
+        <option value="$PROJECT_DIR$/src/zadanie2/Orkiestra.java" />
+        <option value="$PROJECT_DIR$/src/zadanie2/PianistaImpl.java" />
         <option value="$PROJECT_DIR$/src/zadanie2/AbstractMuzyk.java" />
         <option value="$PROJECT_DIR$/src/zadanie2/Muzyk.java" />
-        <option value="$PROJECT_DIR$/src/zadanie2/Orkiestra.java" />
+        <option value="$PROJECT_DIR$/src/zadania3/Zadania3.java" />
       </list>
     </option>
   </component>
@@ -196,6 +92,12 @@
               <item name="programowanie1" type="b2602c69:ProjectViewProjectNode" />
               <item name="programowanie1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zadania3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programowanie1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programowanie1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zadanie2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -206,7 +108,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551617318760" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551622325551" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Orkiestra">
+  <component name="RunManager" selected="Application.Zadania3">
     <configuration name="Orkiestra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zadanie2.Orkiestra" />
       <module name="programowanie1" />
@@ -241,8 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zadania3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zadania3.Zadania3" />
+      <module name="programowanie1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadania3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zadania3" />
         <item itemvalue="Application.Orkiestra" />
         <item itemvalue="Application.P_1" />
       </list>
@@ -268,9 +184,9 @@
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info id="Learn" order="3" />
+      <window_info id="Learn" order="3" weight="0.3295302" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -279,7 +195,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.26487252" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.30311614" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -293,26 +209,41 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.26487252" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/P_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1617">
           <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie2/Pianista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie2/Trębacz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -330,53 +261,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie2/PianistaImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/zadanie2/Pianista.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie2/TrebaczImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/zadanie2/Trębacz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie2/Muzyk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie2/AbstractMuzyk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -395,13 +290,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zadanie2/Orkiestra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        <state relative-caret-position="96">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#209#210#0" expanded="true" />
             <element signature="e#230#231#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie2/PianistaImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie2/TrebaczImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie2/Muzyk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie2/AbstractMuzyk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1231">
+          <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadania3/Zadania3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
         </state>
       </provider>
     </entry>

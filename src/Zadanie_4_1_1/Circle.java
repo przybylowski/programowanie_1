@@ -2,11 +2,11 @@ package Zadanie_4_1_1;
 
 import java.util.Objects;
 
-public class Circle extends Shape {
-    int promien;
+public class Circle extends Shape{
+    double promien;
     Wspolrzedne wspolrzedne;
 
-    public Circle(int promien, int x, int y) {
+    public Circle(double promien, int x, int y) {
         this.promien = promien;
         this.wspolrzedne = new Wspolrzedne(x,y);
     }
@@ -40,5 +40,10 @@ public class Circle extends Shape {
         return Objects.hash(promien, wspolrzedne);
     }
 
+
+    @Override
+    public void resize(double wspolczynnikPowiekszenia) {
+        promien  = promien*wspolczynnikPowiekszenia;
+    }
 
 }

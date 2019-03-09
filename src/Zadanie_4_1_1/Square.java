@@ -2,11 +2,11 @@ package Zadanie_4_1_1;
 
 import java.util.Objects;
 
-public class Square extends Shape {
-    int bok;
+public class Square extends Shape{
+    double bok;
     Wspolrzedne wspolrzedne;
 
-    public Square(int bok, int x, int y) {
+    public Square(double bok, int x, int y) {
         this.bok = bok;
         this.wspolrzedne = new Wspolrzedne(x,y);
     }
@@ -40,4 +40,11 @@ public class Square extends Shape {
     public int hashCode() {
         return Objects.hash(bok, wspolrzedne);
     }
+
+    @Override
+    public void resize(double wspolczynnikPowiekszenia) {
+        bok = bok*wspolczynnikPowiekszenia;
+    }
+
+
 }

@@ -1,11 +1,11 @@
 package Zadanie_4_1_1;
 
 public class Rectangle extends Shape{
-    int bokA;
-    int bokB;
+    double bokA;
+    double bokB;
     Wspolrzedne wspolrzedne;
 
-    public Rectangle(int bokA, int bokB, int x, int y) {
+    public Rectangle(double bokA, double bokB, int x, int y) {
         this.bokA = bokA;
         this.bokB = bokB;
         this.wspolrzedne = new Wspolrzedne(x, y);
@@ -35,4 +35,11 @@ public class Rectangle extends Shape{
     public boolean equals(Object obj) {
         return super.equals(obj);
     }
+
+    @Override
+    public void resize(double wspolczynnikPowiekszenia) {
+        bokA = bokA*wspolczynnikPowiekszenia;
+        bokB = bokB*wspolczynnikPowiekszenia;
+    }
+
 }

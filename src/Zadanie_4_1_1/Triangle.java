@@ -2,11 +2,11 @@ package Zadanie_4_1_1;
 
 import java.util.Objects;
 
-public class Triangle extends Shape{
-    int wysokosc;
-    int bokA;
-    int bokB;
-    int bokC;
+public class Triangle extends Shape {
+    double wysokosc;
+    double bokA;
+    double bokB;
+    double bokC;
     Wspolrzedne wspolrzedne;
 
     public Triangle(int wysokosc, int bokA, int bokB, int bokC, int x, int y) {
@@ -48,4 +48,13 @@ public class Triangle extends Shape{
     public int hashCode() {
         return Objects.hash(wysokosc, bokA, bokB, bokC, wspolrzedne);
     }
+
+    @Override
+    public void resize(double wspolczynnikPowiekszenia) {
+        bokA = bokA*wspolczynnikPowiekszenia;
+        bokB = bokB*wspolczynnikPowiekszenia;
+        bokC = bokC*wspolczynnikPowiekszenia;
+        wysokosc = wysokosc*wspolczynnikPowiekszenia;
+    }
+
 }

@@ -3,7 +3,9 @@ package zadania3;
 import java.util.Scanner;
 
 public class Zadania3 {
-
+    public static int bitCount(int i) {
+        return i;
+    }
     public static void sprawdzeniePalindromu(String wyraz) {
         String odwracanie = new StringBuilder(wyraz).reverse().toString();
         String wyraz2 =  wyraz.replace(" ","");
@@ -57,7 +59,8 @@ public class Zadania3 {
         System.out.println("Cyfry = " + counter_digits);
         System.out.println("Spacje = " + counter_space);
         System.out.println("Znak specjalny = " + special);
-
+        int i = 147;
+        System.out.println(bitCount(147));
 
 
 
